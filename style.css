@@ -18,7 +18,7 @@ p {
   width: 40%;
   float: left;
   margin-left: 5%;
-  padding: 2%;
+  padding-left: 2%;
 }
 
 .half-witdh img {
@@ -31,7 +31,7 @@ p {
 }
 section {
   height: 500px;
-  padding-bottom: 150px;
+  margin-bottom: 100px;
 }
 
 .link-button {
@@ -51,12 +51,15 @@ section {
 .single-experience {
   border-radius: 5px;
   box-shadow: 10px 10px 40px gray;
+  height: 60%;
+  background-color: white;
 }
 
 .experience-area {
   background-image: url("images/exp-bg.png");
   background-repeat: no-repeat;
   background-position: left;
+  margin: 0;
 }
 
 #full-stack {
