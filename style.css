@@ -8,19 +8,20 @@ body {
   color: #fd1d1d;
 }
 h1 {
-  font-size: 50px;
+  font-size: 3rem;
 }
 p {
   color: dimgray;
+  line-height: 25px;
+  margin-bottom: 40px;
+  padding-right: 5%;
 }
 
 .half-witdh {
   width: 40%;
-  float: left;
   margin-left: 5%;
   padding-left: 2%;
 }
-
 .half-witdh img {
   width: 100%;
 }
@@ -28,6 +29,7 @@ p {
 .top-banner {
   background-image: url("images/top-banner.png");
   background-repeat: no-repeat;
+  display: flex;
 }
 section {
   height: 500px;
@@ -46,6 +48,7 @@ section {
   background-image: url("images/dream-bg.png");
   background-repeat: no-repeat;
   background-position: right;
+  display: flex;
 }
 
 .single-experience {
@@ -60,6 +63,7 @@ section {
   background-repeat: no-repeat;
   background-position: left;
   margin: 0;
+  display: flex;
 }
 
 #full-stack {
